@@ -1,0 +1,162 @@
+
+@font-face {
+    font-family: Inter;
+    src: url(../font/Inter-Medium.ttf) format("truetype");
+    font-weight: normal;
+}
+body{
+    font-family: Inter;
+}
+main{
+    background: radial-gradient(68.55% 126.26% at 77.08% 0%, rgb(0, 66, 97) 0%, rgb(0, 29, 69) 28.32%, rgb(0, 0, 0) 100%);
+}
+.top{
+    position: relative;
+}
+.top-bar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #00000066;
+
+
+}
+
+.top-bar__titulo{
+    color: #fff;
+    padding: 16px 0px;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+
+}
+.menu__items{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+.list__link{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+.items__list{
+    list-style-type: none;
+}
+.container{
+    max-width: 1300px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.main-page{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 144px;
+}
+.main-page__content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 66px
+}
+.content__logo{
+    width: 700px;
+}
+.synopsis__text{
+    color: #999;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    width: 665px;
+}
+.section-title{
+    padding: 2px 0;
+    font-size: 28px;
+    background-color: #FFF;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.books{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-wrap: wrap;
+    color: #FFF;
+}
+.books__card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 4px;
+    position: relative;
+}
+.card__info{
+    display: flex;
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    height: 190px;
+    justify-content: space-around;
+    align-items: center;
+}
+.img__cover{
+    height: 150px;
+}
+.text__book-title{
+    font-size: 20px;
+}
+.text__list{
+    font-size: 14px;
+    list-style: none;
+    margin-top: 14px;
+}
+.card__prophecy{
+    height: 124px;
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+}
+.fa-quote-right{
+    align-self: flex-end;
+}
+.fa-quote-left{
+    align-self: flex-start;
+}
+.prophecy__text{
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+.card__prophecy-title{
+    color: #000;
+    background-color: #FFF;
+    padding: 4px 16px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 12px;
+    font-size: medium;
+    position: absolute;
+    top: 182px;
+    left: 152.585px;
+}
+.bold{
+    font-weight: 600;
+}
